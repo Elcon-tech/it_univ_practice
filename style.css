@@ -1,13 +1,30 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
 .container{
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
-textarea{
-    margin-top: 5px;
+header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: midnightblue;
 }
-.mojicode{
-    margin-top: 5px;
+.title{
+    font-size: x-large;
+    color: rgb(240, 245, 247);
 }
-#outtxt{
-    margin-top: 20px;
+main{
+    flex-grow: 1;
+}
+footer{
+    height: 25px;
+    text-align: right;
+    background-color: midnightblue;
+    color: rgb(240, 245, 247);
 }
