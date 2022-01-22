@@ -8,8 +8,10 @@ function addList(user) {
 }
 
 async function getUsers() {
-    const res = await fetch("https://jsonplaceholder.typicode.com/users");
+    //const res = await fetch("https://jsonplaceholder.typicode.com/users");
+    const res = await fetch("./testdata.json");
     const users = await res.json();
+    console.log(users);
     return users;
 }
 
